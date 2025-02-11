@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasereka Technology Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="images/kasereka.jpg" alt="Profile Picture">
+    <p class="philly">Kasereka Philemon Mbogha</p>
+    <p>I am a versatile <em>web developer with &lt;html&gt;, CSS, and JavaScript &copy;</em></p>
+
+    <p class="deco">Let's connect and make a difference in services like:</p>
+    <ul>
+        <li>Web Development</li>
+        <li>Web Design</li>
+        <li>Digital Marketing</li>
+        <li>Transcription / Translation</li>
+        <li>Content Creation</li>
+        <li>Thumbnail Creation</li>
+    </ul>
+
+    <h2>KaseTechSolutions Booking Form</h2>
+    <p>Please fill out the form below to make your booking and proceed with your chosen payment method.</p>
+
+    <form id="bookingForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="amount">Pledge Amount (KES):</label>
+        <select id="amount" name="amount" required>
+            <option value="" disabled selected>--Select Amount--</option>
+        </select><br><br>
+
+        <label for="paymentMethod">Select Payment Method:</label>
+        <select id="paymentMethod" name="paymentMethod" required>
+            <option value="" disabled selected>--Choose Payment Method--</option>
+            <option value="mpesa">M-Pesa</option>
+            <option value="airtel">Airtel Money</option>
+            <option value="bank">Bank Payment</option>
+        </select><br><br>
+
+        <button type="submit">Proceed to Payment</button>
+    </form>
+
+    <footer class="join">
+        <h2>Contact Us</h2>
+        <a href="tel:+254114366228" class="button">Call +254114366228</a>
+        <a href="tel:+254739209076" class="button">Call +254739209076</a>
+        
+        <br><br>
+
+        <a href="mailto:kasereka@KaseTechSolutions.net" class="button email-button">Email kasereka@KaseTechSolutions.net</a>
+        <a href="mailto:kmboghaphilemon@gmail.com" class="button email-button">Email kmboghaphilemon@gmail.com</a>
+
+        <p>&copy; 2024 Kasereka Technology Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

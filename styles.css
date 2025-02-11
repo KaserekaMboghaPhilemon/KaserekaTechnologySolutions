@@ -1,0 +1,99 @@
+img {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+    background-color: blue;
+}
+
+.philly {
+    font-weight: 700;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(66, 180, 255, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: white;
+    padding: 5px;
+}
+
+.layout {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    gap: 8px;
+}
+
+.header { grid-area: header; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+
+em {
+    color: orange;
+    font-style: normal;
+}
+
+h2 {
+    text-shadow: 1px 1px 10px #FC0;
+}
+
+.deco {
+    font-size: 1rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(66, 170, 2, 1) 50%, rgba(252, 16, 69, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p::selection {
+    background-color: #ff0;
+}
+
+p::first-letter {
+    font-size: 20px;
+}
+
+.join {
+    background-color: hsla(9, 100%, 64%, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    background-color: hsla(89, 43%, 51%, 0.3);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
+.email-button {
+    background-color: blue;
+}
+
+.email-button:hover {
+    background-color: darkblue;
+}
+
+footer {
+    height: 350px;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
